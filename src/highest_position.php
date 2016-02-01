@@ -16,5 +16,8 @@ public function getCategory(){
 public function getPositionheld(){
 	return $this -> positionheld;
 }
+public function setCategory1($category1){
+	$this->category1=$category1;
+}
 }
 ?>
