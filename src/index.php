@@ -11,7 +11,7 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-         echo "new code line";
+         echo "sheila";
         ?>
     </body>
 </html>
