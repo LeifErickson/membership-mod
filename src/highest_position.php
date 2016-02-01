@@ -16,5 +16,9 @@ public function getCategory(){
 public function getPositionheld(){
 	return $this -> positionheld;
 }
+
+public function getPositionheld(){
+	return $this -> positionheld;
+}
 }
 ?>
