@@ -49,12 +49,12 @@ class Member extends Person
 		$this->JCIsenatorialno = $JCIsenatorialno;
     }
 
-    public function setDateofIndution($dateofinduction)
+    public function setDateofInduction($dateofinduction)
     {
 		$this->dateofinduction = $dateofinduction;
     }
 
-    public function getMemstatus()
+    public function getMemStatus()
     {
 		return $this->membershipstatus;
     }

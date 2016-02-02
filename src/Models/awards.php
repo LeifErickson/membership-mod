@@ -2,27 +2,34 @@
 
 namespace SecretarialSystem\Models;
 
-class Awards{
-public $category;
-public $award;
-public $year;
+class Awards
+{
+	public $category;
+	public $award;
+	public $year;
 
-public function setCategory($category){
+public function setAwardCategory($category)
+{
 	$this->category=$category;
 }
-public function setAward($award){
+public function setAward($award)
+{
 	$this->award=$award;
 }
-public function setYear($year){
+public function setYear($year)
+{
 	$this->year=$year;
 }
-public function getCategory(){
+public function getAwardCategory()
+{
 	return $this -> category;
 }
-public function getAward(){
+public function getAward()
+{
 	return $this -> award;
 }
-public function getYear(){
+public function getYear()
+{
 	return $this -> year;
 }
 }

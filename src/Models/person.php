@@ -2,7 +2,8 @@
 
 namespace SecretarialSystem\Models;
 
-class Person{
+class Person
+{
 	public $fname;
 	public $lname;
 	public $mname;
@@ -27,7 +28,7 @@ public function setName($fname,$lname,$mname){
 public function setBday($bday){
 	$this->bday = $bday;
 }
-public function StAddress($st_address){
+public function setStAddress($st_address){
 	$this->st_address = $st_address;
 }
 public function setCity($city){
