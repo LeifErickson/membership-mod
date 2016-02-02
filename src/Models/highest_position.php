@@ -1,4 +1,7 @@
 <?php
+
+namespace SecretarialSystem\Models;
+
 class HighestPosition{
 public $category;
 public $positionheld;

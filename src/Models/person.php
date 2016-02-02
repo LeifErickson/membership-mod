@@ -1,4 +1,7 @@
 <?php
+
+namespace SecretarialSystem\Models;
+
 class Person{
 	public $fname;
 	public $lname;
@@ -58,9 +61,7 @@ public function setEmail($email){
 	$this->email = $email;
 }
 public function getName(){
-	return $this -> fname;
-	return $this -> lname;
-	return $this -> mname;
+	return $this->fname . " " . $this->mname . " ". $this->lname;
 }
 public function getBday(){
 	return $this -> bday;

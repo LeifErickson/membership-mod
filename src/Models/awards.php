@@ -1,4 +1,7 @@
 <?php
+
+namespace SecretarialSystem\Models;
+
 class Awards{
 public $category;
 public $award;

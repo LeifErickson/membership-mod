@@ -1,12 +1,13 @@
 <?php
 
-namespace Leif\Models;
-  //projectname\directory
-use Person; //if \Person, php assumes na naa sa root dir ; CodingMatters\Models\Person*
-use Award;
-use Education;
-use SeminarsTrainings;
-use HighestPosition;
+namespace SecretarialSystem\Models; //ang secretarial system kay nka autoload na sya sa composer.json_decode
+									//"SecretarialSystem\\":"src/", -> gi shortcut sya
+									//tas use "composer dump-autoload" if dli pa makita ang class
+use SecretarialSystem\Models\Person; //if \Person, php assumes na naa sa root dir ; CodingMatters\Models\Person*
+use SecretarialSystem\Models\Award;
+use SecretarialSystem\Models\Education;
+use SecretarialSystem\Models\SeminarsTrainings;
+use SecretarialSystem\Models\HighestPosition;
 
 class Member extends Person
 {

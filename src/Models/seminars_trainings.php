@@ -1,4 +1,7 @@
 <?php
+
+namespace SecretarialSystem\Models;
+
 class SeminarsTrainings{
 public $category;
 public $name;

@@ -1,5 +1,7 @@
 <?php
 
+namespace SecretarialSystem\Models;
+
 class Education {
 
 	public $category;
