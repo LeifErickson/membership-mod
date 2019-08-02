@@ -8,20 +8,20 @@ class PersonClassTest extends PHPunit_Framework_TestCase
     public function testPerson()
 	{
 		$member = new member();
-		$member->setName("Leif","de Gracia","Adante");
-		$member->setBday("aug 24, 1996");
+		$member->setName("Leap","Gracia","A");
+		$member->setBday("aug 25, 1996");
 		$member->setStAddress("Zone 1-A");
 		//$member->setMemStatus("active");
-		$member->setCity("IliganCity");
-		$member->setProvince("Lanao del Norte");
+		$member->setCity("IC");
+		$member->setProvince("ICLDN");
 		$member->setCountry("Philippines");
 		$member->setZipcode("9200");
 		$member->setReligion("Catholic");
 		$member->setGender("Fab Male");
-		$member->setMobile("09354641546");
-		$member->setPhone("2239170");
+		$member->setMobile("4123");
+		$member->setPhone("123");
 		$member->setFax("xxx-xxx-xxx");
-		$member->setEmail("dgracialeif@yahoo.com");
+		$member->setEmail("leif@yahoo.com");
 		
 		//echo("\n".$member->getMemStatus()."\n");
 		echo("\n".$member->getName()."\n");
